@@ -68,7 +68,8 @@ Template.editYourAvatarModalBody.events({
                 else {
                     loadImage(tmpl, file.result);
                     $(function () {
-                        displayImage.imgAreaSelect({ aspectRatio: '1:1', handles: true,
+                        displayImage.imgAreaSelect({ x1: 120, y1: 90, x2: 280, y2: 210, 
+                        aspectRatio: '1:1', handles: true,
                         fadeSpeed: 200, onSelectChange: preview });
                     });
                 }

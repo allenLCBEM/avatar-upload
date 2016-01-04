@@ -1,6 +1,6 @@
 Package.describe({
   summary: "simple upload avatar package for meteor",
-  version: "1.3.0",
+  version: "1.4.0",
   name: "selaias:avatar-upload",
   git: "https://github.com/selaias/avatar-upload.git"    
 });
